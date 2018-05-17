@@ -1,3 +1,5 @@
+# ref: http://nap.psa.gov.ph/activestats/psgc/Povincial%20Summary%20Mar2018.pdf
+
 require "psgc/version"
 require "json"
 
