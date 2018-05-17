@@ -1,0 +1,620 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "psgc_code": "012800000",
+      "name": "ILOCOS NORTE",
+      "region_code": "01",
+      "province_code": "0128"
+    },
+    {
+      "id": 2,
+      "psgc_code": "012900000",
+      "name": "ILOCOS SUR",
+      "region_code": "01",
+      "province_code": "0129"
+    },
+    {
+      "id": 3,
+      "psgc_code": "013300000",
+      "name": "LA UNION",
+      "region_code": "01",
+      "province_code": "0133"
+    },
+    {
+      "id": 4,
+      "psgc_code": "015500000",
+      "name": "PANGASINAN",
+      "region_code": "01",
+      "province_code": "0155"
+    },
+    {
+      "id": 5,
+      "psgc_code": "020900000",
+      "name": "BATANES",
+      "region_code": "02",
+      "province_code": "0209"
+    },
+    {
+      "id": 6,
+      "psgc_code": "021500000",
+      "name": "CAGAYAN",
+      "region_code": "02",
+      "province_code": "0215"
+    },
+    {
+      "id": 7,
+      "psgc_code": "023100000",
+      "name": "ISABELA",
+      "region_code": "02",
+      "province_code": "0231"
+    },
+    {
+      "id": 8,
+      "psgc_code": "025000000",
+      "name": "NUEVA VIZCAYA",
+      "region_code": "02",
+      "province_code": "0250"
+    },
+    {
+      "id": 9,
+      "psgc_code": "025700000",
+      "name": "QUIRINO",
+      "region_code": "02",
+      "province_code": "0257"
+    },
+    {
+      "id": 10,
+      "psgc_code": "030800000",
+      "name": "BATAAN",
+      "region_code": "03",
+      "province_code": "0308"
+    },
+    {
+      "id": 11,
+      "psgc_code": "031400000",
+      "name": "BULACAN",
+      "region_code": "03",
+      "province_code": "0314"
+    },
+    {
+      "id": 12,
+      "psgc_code": "034900000",
+      "name": "NUEVA ECIJA",
+      "region_code": "03",
+      "province_code": "0349"
+    },
+    {
+      "id": 13,
+      "psgc_code": "035400000",
+      "name": "PAMPANGA",
+      "region_code": "03",
+      "province_code": "0354"
+    },
+    {
+      "id": 14,
+      "psgc_code": "036900000",
+      "name": "TARLAC",
+      "region_code": "03",
+      "province_code": "0369"
+    },
+    {
+      "id": 15,
+      "psgc_code": "037100000",
+      "name": "ZAMBALES",
+      "region_code": "03",
+      "province_code": "0371"
+    },
+    {
+      "id": 16,
+      "psgc_code": "037700000",
+      "name": "AURORA",
+      "region_code": "03",
+      "province_code": "0377"
+    },
+    {
+      "id": 17,
+      "psgc_code": "041000000",
+      "name": "BATANGAS",
+      "region_code": "04",
+      "province_code": "0410"
+    },
+    {
+      "id": 18,
+      "psgc_code": "042100000",
+      "name": "CAVITE",
+      "region_code": "04",
+      "province_code": "0421"
+    },
+    {
+      "id": 19,
+      "psgc_code": "043400000",
+      "name": "LAGUNA",
+      "region_code": "04",
+      "province_code": "0434"
+    },
+    {
+      "id": 20,
+      "psgc_code": "045600000",
+      "name": "QUEZON",
+      "region_code": "04",
+      "province_code": "0456"
+    },
+    {
+      "id": 21,
+      "psgc_code": "045800000",
+      "name": "RIZAL",
+      "region_code": "04",
+      "province_code": "0458"
+    },
+    {
+      "id": 22,
+      "psgc_code": "174000000",
+      "name": "MARINDUQUE",
+      "region_code": "17",
+      "province_code": "1740"
+    },
+    {
+      "id": 23,
+      "psgc_code": "175100000",
+      "name": "OCCIDENTAL MINDORO",
+      "region_code": "17",
+      "province_code": "1751"
+    },
+    {
+      "id": 24,
+      "psgc_code": "175200000",
+      "name": "ORIENTAL MINDORO",
+      "region_code": "17",
+      "province_code": "1752"
+    },
+    {
+      "id": 25,
+      "psgc_code": "175300000",
+      "name": "PALAWAN",
+      "region_code": "17",
+      "province_code": "1753"
+    },
+    {
+      "id": 26,
+      "psgc_code": "175900000",
+      "name": "ROMBLON",
+      "region_code": "17",
+      "province_code": "1759"
+    },
+    {
+      "id": 27,
+      "psgc_code": "050500000",
+      "name": "ALBAY",
+      "region_code": "05",
+      "province_code": "0505"
+    },
+    {
+      "id": 28,
+      "psgc_code": "051600000",
+      "name": "CAMARINES NORTE",
+      "region_code": "05",
+      "province_code": "0516"
+    },
+    {
+      "id": 29,
+      "psgc_code": "051700000",
+      "name": "CAMARINES SUR",
+      "region_code": "05",
+      "province_code": "0517"
+    },
+    {
+      "id": 30,
+      "psgc_code": "052000000",
+      "name": "CATANDUANES",
+      "region_code": "05",
+      "province_code": "0520"
+    },
+    {
+      "id": 31,
+      "psgc_code": "054100000",
+      "name": "MASBATE",
+      "region_code": "05",
+      "province_code": "0541"
+    },
+    {
+      "id": 32,
+      "psgc_code": "056200000",
+      "name": "SORSOGON",
+      "region_code": "05",
+      "province_code": "0562"
+    },
+    {
+      "id": 33,
+      "psgc_code": "060400000",
+      "name": "AKLAN",
+      "region_code": "06",
+      "province_code": "0604"
+    },
+    {
+      "id": 34,
+      "psgc_code": "060600000",
+      "name": "ANTIQUE",
+      "region_code": "06",
+      "province_code": "0606"
+    },
+    {
+      "id": 35,
+      "psgc_code": "061900000",
+      "name": "CAPIZ",
+      "region_code": "06",
+      "province_code": "0619"
+    },
+    {
+      "id": 36,
+      "psgc_code": "063000000",
+      "name": "ILOILO",
+      "region_code": "06",
+      "province_code": "0630"
+    },
+    {
+      "id": 37,
+      "psgc_code": "064500000",
+      "name": "NEGROS OCCIDENTAL",
+      "region_code": "06",
+      "province_code": "0645"
+    },
+    {
+      "id": 38,
+      "psgc_code": "067900000",
+      "name": "GUIMARAS",
+      "region_code": "06",
+      "province_code": "0679"
+    },
+    {
+      "id": 39,
+      "psgc_code": "071200000",
+      "name": "BOHOL",
+      "region_code": "07",
+      "province_code": "0712"
+    },
+    {
+      "id": 40,
+      "psgc_code": "072200000",
+      "name": "CEBU",
+      "region_code": "07",
+      "province_code": "0722"
+    },
+    {
+      "id": 41,
+      "psgc_code": "074600000",
+      "name": "NEGROS ORIENTAL",
+      "region_code": "07",
+      "province_code": "0746"
+    },
+    {
+      "id": 42,
+      "psgc_code": "076100000",
+      "name": "SIQUIJOR",
+      "region_code": "07",
+      "province_code": "0761"
+    },
+    {
+      "id": 43,
+      "psgc_code": "082600000",
+      "name": "EASTERN SAMAR",
+      "region_code": "08",
+      "province_code": "0826"
+    },
+    {
+      "id": 44,
+      "psgc_code": "083700000",
+      "name": "LEYTE",
+      "region_code": "08",
+      "province_code": "0837"
+    },
+    {
+      "id": 45,
+      "psgc_code": "084800000",
+      "name": "NORTHERN SAMAR",
+      "region_code": "08",
+      "province_code": "0848"
+    },
+    {
+      "id": 46,
+      "psgc_code": "086000000",
+      "name": "SAMAR (WESTERN SAMAR)",
+      "region_code": "08",
+      "province_code": "0860"
+    },
+    {
+      "id": 47,
+      "psgc_code": "086400000",
+      "name": "SOUTHERN LEYTE",
+      "region_code": "08",
+      "province_code": "0864"
+    },
+    {
+      "id": 48,
+      "psgc_code": "087800000",
+      "name": "BILIRAN",
+      "region_code": "08",
+      "province_code": "0878"
+    },
+    {
+      "id": 49,
+      "psgc_code": "097200000",
+      "name": "ZAMBOANGA DEL NORTE",
+      "region_code": "09",
+      "province_code": "0972"
+    },
+    {
+      "id": 50,
+      "psgc_code": "097300000",
+      "name": "ZAMBOANGA DEL SUR",
+      "region_code": "09",
+      "province_code": "0973"
+    },
+    {
+      "id": 51,
+      "psgc_code": "098300000",
+      "name": "ZAMBOANGA SIBUGAY",
+      "region_code": "09",
+      "province_code": "0983"
+    },
+    {
+      "id": 52,
+      "psgc_code": "099700000",
+      "name": "CITY OF ISABELA",
+      "region_code": "09",
+      "province_code": "0997"
+    },
+    {
+      "id": 53,
+      "psgc_code": "101300000",
+      "name": "BUKIDNON",
+      "region_code": "10",
+      "province_code": "1013"
+    },
+    {
+      "id": 54,
+      "psgc_code": "101800000",
+      "name": "CAMIGUIN",
+      "region_code": "10",
+      "province_code": "1018"
+    },
+    {
+      "id": 55,
+      "psgc_code": "103500000",
+      "name": "LANAO DEL NORTE",
+      "region_code": "10",
+      "province_code": "1035"
+    },
+    {
+      "id": 56,
+      "psgc_code": "104200000",
+      "name": "MISAMIS OCCIDENTAL",
+      "region_code": "10",
+      "province_code": "1042"
+    },
+    {
+      "id": 57,
+      "psgc_code": "104300000",
+      "name": "MISAMIS ORIENTAL",
+      "region_code": "10",
+      "province_code": "1043"
+    },
+    {
+      "id": 58,
+      "psgc_code": "112300000",
+      "name": "DAVAO DEL NORTE",
+      "region_code": "11",
+      "province_code": "1123"
+    },
+    {
+      "id": 59,
+      "psgc_code": "112400000",
+      "name": "DAVAO DEL SUR",
+      "region_code": "11",
+      "province_code": "1124"
+    },
+    {
+      "id": 60,
+      "psgc_code": "112500000",
+      "name": "DAVAO ORIENTAL",
+      "region_code": "11",
+      "province_code": "1125"
+    },
+    {
+      "id": 61,
+      "psgc_code": "118200000",
+      "name": "COMPOSTELA VALLEY",
+      "region_code": "11",
+      "province_code": "1182"
+    },
+    {
+      "id": 62,
+      "psgc_code": "118600000",
+      "name": "DAVAO OCCIDENTAL",
+      "region_code": "11",
+      "province_code": "1186"
+    },
+    {
+      "id": 63,
+      "psgc_code": "124700000",
+      "name": "COTABATO (NORTH COTABATO)",
+      "region_code": "12",
+      "province_code": "1247"
+    },
+    {
+      "id": 64,
+      "psgc_code": "126300000",
+      "name": "SOUTH COTABATO",
+      "region_code": "12",
+      "province_code": "1263"
+    },
+    {
+      "id": 65,
+      "psgc_code": "126500000",
+      "name": "SULTAN KUDARAT",
+      "region_code": "12",
+      "province_code": "1265"
+    },
+    {
+      "id": 66,
+      "psgc_code": "128000000",
+      "name": "SARANGANI",
+      "region_code": "12",
+      "province_code": "1280"
+    },
+    {
+      "id": 67,
+      "psgc_code": "129800000",
+      "name": "COTABATO CITY",
+      "region_code": "12",
+      "province_code": "1298"
+    },
+    {
+      "id": 68,
+      "psgc_code": "133900000",
+      "name": "NCR, CITY OF MANILA, FIRST DISTRICT",
+      "region_code": "13",
+      "province_code": "1339"
+    },
+    {
+      "id": 69,
+      "psgc_code": "133900000",
+      "name": "CITY OF MANILA",
+      "region_code": "13",
+      "province_code": "1339"
+    },
+    {
+      "id": 70,
+      "psgc_code": "137400000",
+      "name": "NCR, SECOND DISTRICT",
+      "region_code": "13",
+      "province_code": "1374"
+    },
+    {
+      "id": 71,
+      "psgc_code": "137500000",
+      "name": "NCR, THIRD DISTRICT",
+      "region_code": "13",
+      "province_code": "1375"
+    },
+    {
+      "id": 72,
+      "psgc_code": "137600000",
+      "name": "NCR, FOURTH DISTRICT",
+      "region_code": "13",
+      "province_code": "1376"
+    },
+    {
+      "id": 73,
+      "psgc_code": "140100000",
+      "name": "ABRA",
+      "region_code": "14",
+      "province_code": "1401"
+    },
+    {
+      "id": 74,
+      "psgc_code": "141100000",
+      "name": "BENGUET",
+      "region_code": "14",
+      "province_code": "1411"
+    },
+    {
+      "id": 75,
+      "psgc_code": "142700000",
+      "name": "IFUGAO",
+      "region_code": "14",
+      "province_code": "1427"
+    },
+    {
+      "id": 76,
+      "psgc_code": "143200000",
+      "name": "KALINGA",
+      "region_code": "14",
+      "province_code": "1432"
+    },
+    {
+      "id": 77,
+      "psgc_code": "144400000",
+      "name": "MOUNTAIN PROVINCE",
+      "region_code": "14",
+      "province_code": "1444"
+    },
+    {
+      "id": 78,
+      "psgc_code": "148100000",
+      "name": "APAYAO",
+      "region_code": "14",
+      "province_code": "1481"
+    },
+    {
+      "id": 79,
+      "psgc_code": "150700000",
+      "name": "BASILAN",
+      "region_code": "15",
+      "province_code": "1507"
+    },
+    {
+      "id": 80,
+      "psgc_code": "153600000",
+      "name": "LANAO DEL SUR",
+      "region_code": "15",
+      "province_code": "1536"
+    },
+    {
+      "id": 81,
+      "psgc_code": "153800000",
+      "name": "MAGUINDANAO",
+      "region_code": "15",
+      "province_code": "1538"
+    },
+    {
+      "id": 82,
+      "psgc_code": "156600000",
+      "name": "SULU",
+      "region_code": "15",
+      "province_code": "1566"
+    },
+    {
+      "id": 83,
+      "psgc_code": "157000000",
+      "name": "TAWI-TAWI",
+      "region_code": "15",
+      "province_code": "1570"
+    },
+    {
+      "id": 84,
+      "psgc_code": "160200000",
+      "name": "AGUSAN DEL NORTE",
+      "region_code": "16",
+      "province_code": "1602"
+    },
+    {
+      "id": 85,
+      "psgc_code": "160300000",
+      "name": "AGUSAN DEL SUR",
+      "region_code": "16",
+      "province_code": "1603"
+    },
+    {
+      "id": 86,
+      "psgc_code": "166700000",
+      "name": "SURIGAO DEL NORTE",
+      "region_code": "16",
+      "province_code": "1667"
+    },
+    {
+      "id": 87,
+      "psgc_code": "166800000",
+      "name": "SURIGAO DEL SUR",
+      "region_code": "16",
+      "province_code": "1668"
+    },
+    {
+      "id": 88,
+      "psgc_code": "168500000",
+      "name": "DINAGAT ISLANDS",
+      "region_code": "16",
+      "province_code": "1685"
+    }
+  ]
+}
