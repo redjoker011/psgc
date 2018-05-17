@@ -1,4 +1,5 @@
 require "psgc/version"
+require "json"
 
 module Psgc
   provinces = File.join(File.dirname(__FILE__), "data", "provinces.json")
