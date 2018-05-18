@@ -16,12 +16,20 @@ module Psgc
     REGIONS["data"]
   end
 
-  def self.provinces(region_code:)
+  def self.provinces
+    PROVINCES["data"]
+  end
+
+  def self.cities_municipalities
+    CITIES["data"]
+  end
+
+  def self.get_provinces_by(region_code:)
     provinces = PROVINCES["data"]
     provinces.select{ |data| data["region_code"] == region_code.to_s }
   end
 
-  def self.cities(province_code:)
+  def self.get_cities_municipalities_by(province_code:)
     cities = CITIES["data"]
     cities.select{ |data| data["province_code"] == province_code.to_s }
   end

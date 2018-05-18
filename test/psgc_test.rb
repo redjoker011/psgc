@@ -37,10 +37,10 @@ class PsgcTest < Minitest::Test
   describe "fetch provinces and cities" do
     before do
       @region = regions.first
-      @provinces = Psgc.provinces(region_code: @region["region_code"])
+      @provinces = Psgc.get_provinces_by(region_code: @region["region_code"])
     end
 
-    describe ".provinces" do
+    describe ".get_provinces_by" do
       it "returns provinces of a region" do
         refute @provinces.empty?
       end
@@ -49,10 +49,10 @@ class PsgcTest < Minitest::Test
         assert_equal @region["region_code"], @provinces.last["region_code"]
       end
     end
-    describe ".cities" do
+    describe ".get_cities_munici" do
       before do
         @province = @provinces.last
-        @cities = Psgc.cities(province_code: @province["province_code"])
+        @cities = Psgc.get_cities_municipalities_by(province_code: @province["province_code"])
       end
 
       it "returns cities and municipalities of a province" do
