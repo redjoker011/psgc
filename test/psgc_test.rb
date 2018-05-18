@@ -39,9 +39,9 @@ class PsgcTest < Minitest::Test
       refute Psgc.provinces.empty?
     end
   end
-  describe ".cities" do
+  describe ".cities_and_municipalities" do
     it "returns all provinces" do
-      refute Psgc.cities.empty?
+      refute Psgc.cities_municipalities.empty?
     end
   end
   describe "fetch specific provinces and cities" do
