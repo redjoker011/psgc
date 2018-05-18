@@ -1,15 +1,18 @@
 require "test_helper"
 
 class PsgcTest < Minitest::Test
+  extend Minitest::Spec::DSL
+  let(:regions){ Psgc.regions }
+
   def test_that_it_has_a_version_number
     refute_nil ::Psgc::VERSION
   end
 
   describe ".regions" do
-    before { @regions = Psgc.regions }
     it "returns regions" do
-      refute @regions.empty?
+      refute regions.empty?
     end
+
     it "returns 17 regions" do
       # [ 1] "REGION I (ILOCOS REGION)",
       # [ 2] "REGION II (CAGAYAN VALLEY)",
@@ -28,20 +31,37 @@ class PsgcTest < Minitest::Test
       # [15] "CORDILLERA ADMINISTRATIVE REGION (CAR)",
       # [16] "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
       # [17] "REGION XIII (Caraga)"
-      assert_equal @regions.count, 17
+      assert_equal regions.count, 17
     end
   end
-  describe ".provinces" do
+  describe "fetch provinces and cities" do
     before do
-      region = Psgc.regions.first
-      @region_code = region["region_code"]
-      @provinces = Psgc.provinces(region_code: @region_code)
+      @region = regions.first
+      @provinces = Psgc.provinces(region_code: @region["region_code"])
     end
-    it "returns provinces of a region" do
-      refute @provinces.empty?
+
+    describe ".provinces" do
+      it "returns provinces of a region" do
+        refute @provinces.empty?
+      end
+
+      it "returns correct provinces based on region code" do
+        assert_equal @region["region_code"], @provinces.last["region_code"]
+      end
     end
-    it "returns correct provinces" do
-      assert_equal @region_code, @provinces.last["region_code"]
+    describe ".cities" do
+      before do
+        @province = @provinces.last
+        @cities = Psgc.cities(province_code: @province["province_code"])
+      end
+
+      it "returns cities and municipalities of a province" do
+        refute @cities.empty?
+      end
+
+      it "returns correct cities and municipalities" do
+        assert_equal @province["province_code"], @cities.last["province_code"]
+      end
     end
   end
 end
