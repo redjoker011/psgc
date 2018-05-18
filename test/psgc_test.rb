@@ -31,4 +31,17 @@ class PsgcTest < Minitest::Test
       assert_equal @regions.count, 17
     end
   end
+  describe ".provinces" do
+    before do
+      region = Psgc.regions.first
+      @region_code = region["region_code"]
+      @provinces = Psgc.provinces(region_code: @region_code)
+    end
+    it "returns provinces of a region" do
+      refute @provinces.empty?
+    end
+    it "returns correct provinces" do
+      assert_equal @region_code, @provinces.last["region_code"]
+    end
+  end
 end
