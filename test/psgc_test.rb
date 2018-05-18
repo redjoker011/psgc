@@ -34,7 +34,17 @@ class PsgcTest < Minitest::Test
       assert_equal regions.count, 17
     end
   end
-  describe "fetch provinces and cities" do
+  describe ".provinces" do
+    it "returns all provinces" do
+      refute Psgc.provinces.empty?
+    end
+  end
+  describe ".cities" do
+    it "returns all provinces" do
+      refute Psgc.cities.empty?
+    end
+  end
+  describe "fetch specific provinces and cities" do
     before do
       @region = regions.first
       @provinces = Psgc.get_provinces_by(region_code: @region["region_code"])
