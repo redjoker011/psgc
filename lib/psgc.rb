@@ -17,20 +17,19 @@ module Psgc
   end
 
   def self.provinces
-    PROVINCES["data"]
+    PROVINCES["data"].sort_by{ |province| province["name"] }
   end
 
   def self.cities_municipalities
-    CITIES["data"]
+    CITIES["data"].sort_by{ |city| city["name"] }
   end
 
   def self.get_provinces_by(region_code:)
-    provinces = PROVINCES["data"]
     provinces.select{ |data| data["region_code"] == region_code.to_s }
   end
 
   def self.get_cities_municipalities_by(province_code:)
-    cities = CITIES["data"]
+    cities = cities_municipalities
     cities.select{ |data| data["province_code"] == province_code.to_s }
   end
 end
