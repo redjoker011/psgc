@@ -25,12 +25,11 @@ module Psgc
   end
 
   def self.get_provinces_by(region_code:)
-    provinces = PROVINCES["data"]
     provinces.select{ |data| data["region_code"] == region_code.to_s }
   end
 
   def self.get_cities_municipalities_by(province_code:)
-    cities = CITIES["data"]
+    cities = cities_municipalities
     cities.select{ |data| data["province_code"] == province_code.to_s }
   end
 end
