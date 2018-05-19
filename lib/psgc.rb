@@ -17,11 +17,11 @@ module Psgc
   end
 
   def self.provinces
-    PROVINCES["data"]
+    PROVINCES["data"].sort_by{ |province| province["name"] }
   end
 
   def self.cities_municipalities
-    CITIES["data"]
+    CITIES["data"].sort_by{ |city| city["name"] }
   end
 
   def self.get_provinces_by(region_code:)
