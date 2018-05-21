@@ -1,8 +1,17 @@
-# Psgc
+# Psgc(Philippine Standard Geographic Code) Ruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/psgc`. To experiment with that code, run `bin/console` for an interactive prompt.
+The Philippine Standard Geographic Code (PSGC) is a systematic classification
+and coding of geographic areas of the Philippines.
 
-TODO: Delete this and the text above, and describe your gem
+It is based on the four well-established hierarchical levels of
+geographical-political subdivisions of the country such as the administrative
+region, the province, the municipality/city and the barangay.
+
+This Ruby gem provides the PSGC data as a Ruby class library. It can be used in
+Rails applications without requiring dedicated database tables.
+
+This gem also contains helper methods for mapping specific region's provinces
+and province's cities and municipalities for much more productive development.
 
 ## Installation
 
@@ -173,7 +182,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/psgc. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/redjoker011/psgc. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -181,4 +190,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Psgc project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/psgc/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Psgc project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/redjoker011/psgc/blob/master/CODE_OF_CONDUCT.md).
