@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'psgc'
+gem 'psgc', git: "https://github.com/redjoker011/psgc"
 ```
 
 And then execute:
